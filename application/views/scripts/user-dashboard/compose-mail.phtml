@@ -1,0 +1,107 @@
+<div id = "disabling-panel" style= "z-index:1001;position:absolute;top:0%;left:15%;width:100%; height:100%;background-color: grey;opacity:.00;display:none"> 
+</div>
+<div id = "compose-container" style ="z-index:1001;position:absolute;height:60%;display:none; width:60%;left:15%;background-color:#EEEEEE">
+	<div id = 'compose-header' style = "width:100%;height:5%;background-color:black;color:white">
+		New Message
+		<input type = "button" value = "X" style = "background-color:black;color:white;float:right;"  onclick = "MailService.addToDraft();">
+	</div>
+	<form id = "compose-form">
+		<div style = "width:inherit;height:10%;overflow:scroll;display:block;">
+			<label>To</label><input type = "button" value = "(+)" style = "background-color:black;color:white" onclick="MailService.addRecipients();"/><div id = "recipients-container" ><input id = "recipient_fixed_one" type = "text" name = "recipients[]" ></div>
+		</div>
+		<div style = "width:100%;height:10%">
+			<input type = "textbox" name = "subject" id = "subject" placeholder = "Subject" style = "height:100%;border:0px solid;outline-width: 0;font-size:20px;width:95%">
+		</div>
+		<div style = "width:inherit;height:65%">
+			<textarea name = "mail_body" id = "mail_body" rows="15" cols="100" style = "font-size:15px"></textarea>
+		</div>
+		<div style = "width:inherit;height:10%;background-color:#EEEEEE">
+			<input type = "button" value = "Send" onclick="MailService.sendMail();"/>
+		</div>
+		<input type = "hidden" name = "auth_token" id = "c-auth-token" value = "<?php echo $this->authToken;?>">
+		<input type = "hidden" name = "user_id" id = "c-user-id" value = "<?php echo $this->userId;?>">
+		<input type = "hidden" name = "email_id" id = "c-email-id" value = "<?php echo $this->emailId;?>">
+		<input type = "hidden" name = "is_draft" id = "is_draft" value = "">
+	</form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	var MailService = {
+
+		addRecipients : function() {
+			var recCont = document.getElementById("recipients-container");
+			var newInputEle = document.createElement("input");
+			newInputEle.setAttribute("type","text");
+			newInputEle.setAttribute("name","recipients[]");
+			recCont.appendChild(newInputEle);
+		},
+
+		sendMail : function() {
+			var errorMsg = ""
+			if($('#subject').val() == "" || $('#subject').val() == "Subject") {
+				errorMsg = errorMsg + "Subject cant be empty";
+			}
+			var count = 0;
+			$("[name='recipients[]']").each(function() {
+				if(this.value)
+					count++;
+			});
+			if(count == 0) {
+				errorMsg = errorMsg + "recipient cant be blank";
+			}
+			if(errorMsg) {
+				alert(errorMsg);
+				return;
+			}
+			else {
+				$.ajax({
+                    type: "post",
+                    url: "/mail-management/send-mail",
+                    data: $("#compose-form").serialize(),
+                    dataType: "text",
+                    success :function(data) {
+                    	alert(data);
+                    	$('#subject').val("");
+                    	$('#mail_body').val("");
+                    	$('#recipient_fixed_one').val("");
+                    	$('#disabling-panel').hide();
+						$('#compose-container').hide();
+                    },
+                    failure :function(data) {
+                    	alert("failure");
+                    }
+				});
+
+			}
+		},
+		addToDraft : function() {
+			var count = 0;
+			$("[name='recipients[]']").each(function() {
+				if(this.value)
+					count++;
+			});
+			if(!(($('#subject').val() == "" || $('#subject').val() == "Subject") && count == 0 && ($('#mail_body').val().length == 0 ))) {
+
+				$('#is_draft').val("1");
+
+				$.ajax({
+	                    type: "post",
+	                    url: "/mail-management/send-mail",
+	                    data: $("#compose-form").serialize(),
+	                    dataType: "text",
+	                    success :function(data) {
+	                    	alert("Draft Saved");
+	                    },
+	                    failure :function(data) {
+	                    	alert("failure");
+	                    }
+					});
+			}
+			$('#subject').val("");
+        	$('#mail_body').val("");
+        	$('#recipient_fixed_one').val("");
+			$('#disabling-panel').hide();
+			$('#compose-container').hide();
+		}
+	}
+</script>

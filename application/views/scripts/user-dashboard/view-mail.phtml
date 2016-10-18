@@ -1,0 +1,123 @@
+<div id="user-dashboard" style = "height:500px">
+	<?php include("leftmenu.phtml");?>
+	<?php include("compose-mail.phtml");?>
+	<div id = "mail-event-options">
+		<input type = "button" value = "<?php if($this->view_option == 'trash') echo "Retrieve"; else echo "Move to trash";?>" onclick = "SelectOption.deleteOrRetrieveSelectedMails();">
+	</div>
+	<div id = "view-mail-container">
+		<table cellpadding="2" border="1" style="border:none;width:85%;table-layout:fixed;word-wrap:break-word;line-height:14px;float:right" cellspacing="0" >
+			<?php foreach($this->mails as $key => $value):?>
+			<tr>
+				<th style = "width:20%"><input type = "checkbox" name = "delete_chk" value = "<?php if($this->view_option == 'sent' || $this->view_option == 'draft')echo  $value->mail_id; else echo $value->id; ?>"><?php if(!isset($value->firstname) && !isset($value->lastname)){echo "<-no recipient->";} else {echo $value->firstname . " " . $value->lastname;}?> <?php if($this->view_option != 'inbox' && $value->count > 1) echo "+ ".($value->count -1);?> </th>
+
+				<th style = "width:35%;"><?php if(!isset($value->mail_subject)) {echo "<-no subject->";} else { echo $value->mail_subject;}?></th>
+
+				<th style = "width:35%"><span style = "text-overflow: ellipsis;white-space:nowrap;overflow:hidden;display:block"><?php if(!isset($value->mail_body)) {echo "<-no content->";} else { echo $value->mail_body;};?></span></th>
+
+				<?php 	$timeDiff = time();
+						$msgTime = time();
+						if($this->view_option == "trash"){
+							if(isset($value->m_del_on)) {
+								$msgTime = strtotime($value->m_del_on);
+							}
+							else {
+								$msgTime = strtotime($value->r_del_on);
+							}
+						}
+						elseif($this->view_option == 'sent' || $this->view_option == 'draft') {
+							$msgTime = strtotime($value->sent_on);
+						}
+						elseif($this->view_option == 'inbox') {
+							$msgTime = strtotime($value->recieved_on);
+						}
+						$timeDiff = time() - $msgTime;
+						if($timeDiff < 0 ) {
+							$timeDiff = -1 * $timeDiff;
+						}
+						$timeDisplay = "";
+						if(($timeDiff / 3600) > 24) {
+							$timeDisplay = date("m/d/Y", $msgTime);
+							/*$dt = new DateTime($msgTime);
+							$timeDisplay = $dt->format('m/d/Y');*/
+						}
+						else {
+							if($timeDiff < 60) 
+								$timeDisplay = $timeDiff . "s ago";
+							elseif ($timeDiff < 3600)
+								$timeDisplay = round($timeDiff/60 ). "m " . $timeDiff % 60 ."s ago";
+							else
+								$timeDisplay = round($timeDiff / 3600) . "h ago";
+						}
+				?>
+				<th style = "width:10%"><?php echo $timeDisplay;?>
+				<span style = "float:right">
+					<?php 
+						if(isset($value->m_del_on))
+							{
+								if($value->is_draft == 1)
+									echo "<i>draft</i>";
+								else
+									echo "<i>sent</i>";
+							}
+						elseif(isset($value->r_del_on))
+								echo "<i>inbox</i>";
+					?>
+				</span>
+				</th>
+			</tr>
+			<input type = "hidden" value = "<?php echo $value->mail_id;?>" id = "mail_id"/>
+		<?php endforeach;?>
+		</table>
+	</div>
+</div>
+<style type="text/css">
+	th{
+		font-weight:normal;
+		border-right:none;
+		border-left: none;
+		text-align:left;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type = "text/javascript">
+
+	var SelectOption = {
+		
+		deleteOrRetrieveSelectedMails :function() {
+			var viewOption = $("#view_option").val();
+			var url = ""
+			if(viewOption == 'sent' || viewOption == 'draft') {
+				alert("sent");
+				url = "/mail-management/delete-sent-mails";
+			}
+			else {
+				alert("inbox");
+				url = "/mail-management/delete-recipient-mails";
+			}
+			var deleteMailIds = "";
+			$("input:checkbox[name=delete_chk]:checked").each(function(){
+			    deleteMailIds = deleteMailIds + "id[]=" + $(this).val() + "&";
+			});
+			if(deleteMailIds.length != 0) {
+				deleteMailIds = deleteMailIds.substring(0, deleteMailIds.length - 1);
+				$.ajax({
+					type : "post",
+					url : url,
+					data: deleteMailIds,
+					dataType:"text",
+					success :function(data) {
+						alert("Mails successfully deleted");
+						location.reload();
+					},
+					failure :function(data) {
+						alert("Problem occured while deleting mails");
+					}
+
+				});
+			}
+			else {
+				alert("no mails selected");
+			}
+		}
+	}
+</script>

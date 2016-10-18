@@ -1,0 +1,31 @@
+<div id = "left_menu_container" style = "float:left;background-color:#EEEEEE;width:15%;height:inherit">
+	<div>
+		<table>
+			<tr><td><a href = "http://<?php echo $this->baseUrl;?>inbox"><h3>Inbox</h3></a></td></tr>
+			<tr><td><a href = "http://<?php echo $this->baseUrl;?>sent"><h3>Sent Mail</h3></a></td></tr>
+			<tr><td><a href = "http://<?php echo $this->baseUrl;?>draft"><h3>Draft</a></h3></td></tr>
+			<tr><td><h3><a href = "http://<?php echo $this->baseUrl;?>trash">Trash</a></h3></td></tr>
+			<tr>
+				<td>
+					<h3><a href= "#" onclick = "ClickEvent.showComposeMail();">Compose Mail</a></h3>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<input type = "hidden" id = "user_id" value = "<?php echo $this->user_id;?>">
+	<input type = "hidden" id = "email_id" value = "<?php echo $this->email_id;?>">
+	<input type = "hidden" id = "auth_id" value = "<?php echo $this->auth_token;?>">
+	<input type = "hidden" id = "view_option" value = "<?php echo $this->view_option;?>">
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	var ClickEvent = {
+		showComposeMail :function() {
+			$('#disabling-panel').show();
+			$('#compose-container').show();
+			$('#c-auth-token').val($('#auth_id').val());
+			$('#c-email-id').val($('#email_id').val());
+			$('#c-user-id').val($('#user_id').val());
+		}
+	}
+</script>

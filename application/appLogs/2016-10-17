@@ -1,0 +1,899 @@
+2016-10-17T23:56:21-05:00 INFO (6): Inside MailManagementController deleteRecipientMailsAction
+2016-10-17T23:56:21-05:00 INFO (6): params : 'controller=mail-management&action=delete-recipient-mails&module=default&id%5B0%5D=%3Cbr+%2F%3E%0A%3Cb%3ENotice%3C%2Fb%3E%3A++Undefined+property%3A+stdClass%3A%3A%24id+in+%3Cb%3E%2FUsers%2Frohan.ghosh%2FSites%2Femail%2Femail_client%2Fapplication%2Fviews%2Fscripts%2Fuser-dashboard%2Fview-mail.phtml%3C%2Fb%3E+on+line+%3Cb%3E11%3C%2Fb%3E%3Cbr+%2F%3E%0A&id%5B1%5D=%3Cbr+%2F%3E%0A%3Cb%3ENotice%3C%2Fb%3E%3A++Undefined+property%3A+stdClass%3A%3A%24id+in+%3Cb%3E%2FUsers%2Frohan.ghosh%2FSites%2Femail%2Femail_client%2Fapplication%2Fviews%2Fscripts%2Fuser-dashboard%2Fview-mail.phtml%3C%2Fb%3E+on+line+%3Cb%3E11%3C%2Fb%3E%3Cbr+%2F%3E%0A'
+2016-10-17T23:56:21-05:00 INFO (6): Error in calling API = ''
+2016-10-17T23:56:21-05:00 INFO (6): params : stdClass::__set_state(array(
+   'status' => 1,
+))
+2016-10-17T23:56:23-05:00 INFO (6): Error in calling API = ''
+2016-10-17T23:56:23-05:00 INFO (6): response from authorisation api : array (
+  'auth_verified' => 1,
+  'user_id' => '1',
+  'email_id' => 'saurabh.keshri123@gmail.com',
+)
+2016-10-17T23:56:23-05:00 INFO (6): Inside UserDashboardController viewMailAction
+2016-10-17T23:56:23-05:00 INFO (6): Url =  'dev.email.server.com/mail-management/view-mail'
+2016-10-17T23:56:23-05:00 INFO (6): post params mail management : 'controller=user-dashboard&action=view-mail&user_id=1&email_id=saurabh.keshri123%40gmail.com&auth_token=c3175abc306febbe0e295b74cd9267d9&view_option=sent&module=default'
+2016-10-17T23:56:23-05:00 INFO (6): Error in calling API = ''
+2016-10-17T23:56:23-05:00 INFO (6): Response from send mail api = stdClass::__set_state(array(
+   'user_mails' => 
+  array (
+    0 => 
+    stdClass::__set_state(array(
+       'count' => '2',
+       'mail_id' => '53',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => NULL,
+       'mail_body' => NULL,
+       'sent_on' => '2016-10-17 16:01:32',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    1 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '48',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajhdjhasdasdgasjdgas  asjgdjgasd',
+       'mail_body' => 'asdasvdhasdjgasjdghgbm
+a
+
+asd
+as
+da
+sd
+asdasdasdasd
+
+asdasdsa',
+       'sent_on' => '2016-10-17 15:01:34',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    2 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '47',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajhdjhasdasdgasjdgas  asjgdjgasd',
+       'mail_body' => 'asdasvdhasdjgasjdghgbm
+a
+
+asd
+as
+da
+sd
+asdasdasdasd
+
+asdasdsa',
+       'sent_on' => '2016-10-17 14:58:31',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    3 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '46',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajhdjhasdasdgasjdgas  asjgdjgasd',
+       'mail_body' => 'asdasvdhasdjgasjdghgbm
+a
+
+asd
+as
+da
+sd
+asdasdasdasd
+
+asdasdsa',
+       'sent_on' => '2016-10-17 14:56:54',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    4 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '45',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'asjkdhasdkhakdjhshkhdsad',
+       'mail_body' => 'sdjkfhskdjfhhdskfkhj',
+       'sent_on' => '2016-10-17 14:56:03',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    5 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '44',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'asdjasgdjgasdgahsgd',
+       'mail_body' => 'aasdaskdkasdhhasdhasdas',
+       'sent_on' => '2016-10-17 14:48:50',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    6 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '43',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'asiudasiydysaidy',
+       'mail_body' => 'diyaisydusdfgdsgfgsdjfghds',
+       'sent_on' => '2016-10-17 14:48:01',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    7 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '41',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'sdasdasd a sadadasdsa',
+       'mail_body' => 'asdljasdasdiaskdhahsd
+
+
+
+
+sadasdasdsad',
+       'sent_on' => '2016-10-17 14:44:16',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    8 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '40',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'asdasdasdasdas asdasdas',
+       'mail_body' => 'adjasdkhsaa
+asd
+as
+d
+asd
+
+asdasd',
+       'sent_on' => '2016-10-17 14:41:39',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    9 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '39',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'adasdasdas',
+       'mail_body' => 'asdasdasd
+as
+
+asd
+as
+dasdasdasdas',
+       'sent_on' => '2016-10-17 14:38:27',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    10 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '37',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'aaskdha a sjhdkas hasdk',
+       'mail_body' => 'adjasdahs asjhdhasdas
+,
+asd
+asd
+as
+d
+
+
+
+
+asdasdasdsad,
+
+adasa',
+       'sent_on' => '2016-10-17 14:33:15',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    11 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '36',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:32:22',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    12 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '35',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:31:56',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    13 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '34',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:30:25',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    14 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '33',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:28:38',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    15 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '32',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:28:14',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    16 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '31',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'testing asdansdnasm  asmdnbmasnbd',
+       'mail_body' => 'asdasdask sahdkashdha s aa  as da
+as
+dadas
+
+
+
+
+asd
+sadasdasdas',
+       'sent_on' => '2016-10-17 14:21:45',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    17 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '30',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:20:36',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    18 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '29',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:19:45',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    19 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '28',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:18:47',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    20 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '27',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:18:31',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    21 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '26',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:16:22',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    22 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '25',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:13:57',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    23 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '24',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:13:46',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    24 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '23',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:12:45',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    25 => 
+    stdClass::__set_state(array(
+       'count' => '1',
+       'mail_id' => '22',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'ajsakdbjas a sdhaskjdhas d dkhaskd',
+       'mail_body' => 'asdbasdjhas        asdhaksjdhasdas
+
+
+asd
+as
+dasd
+as
+das
+
+asdasd',
+       'sent_on' => '2016-10-17 14:06:16',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '3',
+       'email_id' => 'saurabh.keshri1@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Saurabh1',
+       'lastname' => 'Keshri',
+       'auth_token' => '',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-15 10:25:08',
+    )),
+    26 => 
+    stdClass::__set_state(array(
+       'count' => '3',
+       'mail_id' => '21',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'Testing2 Compose Mail',
+       'mail_body' => 'Hi Saurabh ,
+                    Type in  different format to check this text box .
+
+Check the way it is stored in db and the space it takes. Check if the format is same while 
+fetching and displaying from db.
+
+
+
+Regards,
+Saurabh Keshri',
+       'sent_on' => '2016-10-16 16:46:36',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    27 => 
+    stdClass::__set_state(array(
+       'count' => '3',
+       'mail_id' => '20',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'Testing2 Compose Mail',
+       'mail_body' => 'Hi Saurabh ,
+                    Type in  different format to check this text box .
+
+Check the way it is stored in db and the space it takes. Check if the format is same while 
+fetching and displaying from db.
+
+
+
+Regards,
+Saurabh Keshri',
+       'sent_on' => '2016-10-16 16:45:37',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+    28 => 
+    stdClass::__set_state(array(
+       'count' => '3',
+       'mail_id' => '17',
+       'source_id' => '1',
+       'parent_id' => NULL,
+       'mail_subject' => 'Testing Compose Mail',
+       'mail_body' => 'Hi Saurabh ,
+                    Type in  different format to check this text box .
+
+Check the way it is stored in db and the space it takes. Check if the format is same while 
+fetching and displaying from db.
+
+
+
+Regards,
+Saurabh Keshri',
+       'sent_on' => '2016-10-16 16:33:06',
+       'is_deleted' => '0',
+       'deleted_on' => NULL,
+       'is_draft' => NULL,
+       'is_reply' => NULL,
+       'is_forward' => NULL,
+       'user_id' => '2',
+       'email_id' => 'saurabh.keshri321@gmail.com',
+       'password' => 'dGVzdDMyMQ==',
+       'firstname' => 'Vibha',
+       'lastname' => 'Keshri',
+       'auth_token' => '2173380054a5dd628bbd00b68b2a1290',
+       'added_on' => '2016-10-15 10:25:08',
+       'modified_on' => '2016-10-17 02:43:23',
+    )),
+  ),
+))

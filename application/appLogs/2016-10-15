@@ -1,0 +1,480 @@
+2016-10-15T07:39:04+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:39:19+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:46:54+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:47:06+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:47:23+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:47:46+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:48:12+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-10-15T07:49:01+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:53:58+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:57:27+00:00 INFO (6): apiUrl = 0
+2016-10-15T07:57:27+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T07:59:57+00:00 INFO (6): apiUrl = 0
+2016-10-15T07:59:57+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T08:00:05+00:00 INFO (6): apiUrl = 0
+2016-10-15T08:00:05+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2016-10-15T08:00:27+00:00 INFO (6): apiUrl = 0
+2016-10-15T08:00:27+00:00 INFO (6): Api Response : '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don\'t have permission to access /
+on this server.<br />
+</p>
+</body></html>
+'
+2016-10-15T08:02:34+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:02:34+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T08:03:16+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:03:16+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T08:03:53+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:03:53+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T08:04:01+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:04:01+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T08:05:44+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:05:44+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T08:05:51+00:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T08:05:51+00:00 INFO (6): Api Response : '{"me":1,"he":2}'
+2016-10-15T07:04:24-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T07:04:25-05:00 INFO (6): Api Response : '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Zend Framework Default Application</title>
+</head>
+<body>
+  <h1>An error occurred</h1>
+  <h2>Application error</h2>
+
+    
+  <h3>Exception information:</h3>
+  <p>
+      <b>Message:</b> Primary key column(s) (user_id) are not columns in this table ()  </p>
+
+  <h3>Stack trace:</h3>
+  <pre>#0 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Db/Table/Abstract.php(1034): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /Users/rohan.ghosh/Sites/email/email_server/application/models/UserLoginMapper.php(26): Zend_Db_Table_Abstract->insert(Array)
+#2 /Users/rohan.ghosh/Sites/email/email_server/application/controllers/LoginController.php(43): Application_Model_UserLoginMapper->save(Object(Application_Model_UserLogin))
+#3 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Controller/Action.php(516): LoginController->signInAction()
+#4 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch(\'signInAction\')
+#5 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 /Users/rohan.ghosh/Sites/ZendFramework-1.12.20/library/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /Users/rohan.ghosh/Sites/email/email_server/public/index.php(26): Zend_Application->run()
+#9 {main}  </pre>
+
+  <h3>Request Parameters:</h3>
+  <pre>array (
+  \'controller\' =&gt; \'login\',
+  \'action\' =&gt; \'sign-in\',
+  \'module\' =&gt; \'default\',
+  \'email_id\' =&gt; \'asdadas\',
+  \'password\' =&gt; \'asdasdasd\',
+)  </pre>
+
+  
+</body>
+</html>
+'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-10-15T12:33:59-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T12:37:43-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:01:59-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:02:09-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:02:09-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:02:09-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:03:02-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:03:08-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:03:08-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:03:08-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:05:34-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:05:49-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:05:49-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:05:49-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:08:01-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:08:01-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:08:01-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:08:01-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'asdgjasghd@gmail.com',
+  'error_message' => 'Email Id Not Registered',
+  'module' => 'default',
+)
+2016-10-15T13:09:29-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'asdgjasghd@gmail.com',
+  'error_message' => 'Email Id Not Registered',
+  'module' => 'default',
+)
+2016-10-15T13:09:59-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:09:59-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:09:59-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:09:59-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'asdgjahsd@gmail.com',
+  'error_message' => 'Email Id Not Registered',
+  'module' => 'default',
+)
+2016-10-15T13:10:17-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'asdgjahsd@gmail.com',
+  'error_message' => 'Email Id Not Registered',
+  'module' => 'default',
+)
+2016-10-15T13:10:49-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:10:49-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Incorrect Password"}'
+2016-10-15T13:10:49-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Incorrect Password',
+))
+2016-10-15T13:10:49-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'saurabh.keshri123@gmail.com',
+  'error_message' => 'Incorrect Password',
+  'module' => 'default',
+)
+2016-10-15T13:10:58-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:10:58-05:00 INFO (6): Api Response : '{"login_verified":1,"auth_token":""}'
+2016-10-15T13:10:58-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 1,
+   'auth_token' => '',
+))
+2016-10-15T13:10:58-05:00 INFO (6): Params after login = array (
+  'controller' => 'user-dashboard',
+  'action' => 'index',
+  'emailId' => 'saurabh.keshri123@gmail.com',
+  'module' => 'default',
+)
+2016-10-15T13:30:25-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:30:52-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:30:52-05:00 INFO (6): Api Response : '{"login_verified":1,"auth_token":"52f58dd077c43b2dc689b208c2add0b9"}'
+2016-10-15T13:30:52-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 1,
+   'auth_token' => '52f58dd077c43b2dc689b208c2add0b9',
+))
+2016-10-15T13:30:52-05:00 INFO (6): Params after login = array (
+  'controller' => 'user-dashboard',
+  'action' => 'index',
+  'emailId' => 'saurabh.keshri123@gmail.com',
+  'auth_token' => '52f58dd077c43b2dc689b208c2add0b9',
+  'module' => 'default',
+)
+2016-10-15T13:31:42-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:55:16-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:55:48-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:55:49-05:00 INFO (6): Api Response : '<br />
+<b>Catchable fatal error</b>:  Argument 1 passed to Application_Model_UserLoginMapper::save() must be an instance of Application_Model_UserLogin, string given, called in /Users/rohan.ghosh/Sites/email/email_server/application/controllers/LoginController.php on line 50 and defined in <b>/Users/rohan.ghosh/Sites/email/email_server/application/models/UserLoginMapper.php</b> on line <b>9</b><br />
+'
+2016-10-15T13:55:49-05:00 INFO (6): response from login api : NULL
+2016-10-15T13:55:49-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'saurabh.keshri123@gmail.com',
+  'module' => 'default',
+)
+2016-10-15T13:56:40-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:56:40-05:00 INFO (6): Api Response : '<br />
+<b>Notice</b>:  Undefined index: user_id in <b>/Users/rohan.ghosh/Sites/email/email_server/application/models/UserLoginMapper.php</b> on line <b>46</b><br />
+{"login_verified":1,"auth_token":"72b037a9ee05b2741b1732010f8a4be9"}'
+2016-10-15T13:56:40-05:00 INFO (6): response from login api : NULL
+2016-10-15T13:56:40-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'saurabh.keshri123@gmail.com',
+  'module' => 'default',
+)
+2016-10-15T13:57:27-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:57:27-05:00 INFO (6): Api Response : '{"login_verified":1,"auth_token":"06e9dd93c666d1bfca769086f0d91e90"}'
+2016-10-15T13:57:27-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 1,
+   'auth_token' => '06e9dd93c666d1bfca769086f0d91e90',
+))
+2016-10-15T13:57:27-05:00 INFO (6): Params after login = array (
+  'controller' => 'user-dashboard',
+  'action' => 'index',
+  'emailId' => 'saurabh.keshri123@gmail.com',
+  'auth_token' => '06e9dd93c666d1bfca769086f0d91e90',
+  'module' => 'default',
+)
+2016-10-15T13:58:04-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'module' => 'default',
+)
+2016-10-15T13:58:21-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T13:58:21-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Email Id Not Registered"}'
+2016-10-15T13:58:21-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Email Id Not Registered',
+))
+2016-10-15T13:58:22-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'saurabh.keshri13@gmail.com',
+  'error_message' => 'Email Id Not Registered',
+  'module' => 'default',
+)
+2016-10-15T14:14:12-05:00 INFO (6): apiUrl = 'dev.email.server.com/login/sign-in'
+2016-10-15T14:14:12-05:00 INFO (6): Api Response : '{"login_verified":0,"error_message":"Your account has been deleted"}'
+2016-10-15T14:14:12-05:00 INFO (6): response from login api : stdClass::__set_state(array(
+   'login_verified' => 0,
+   'error_message' => 'Your account has been deleted',
+))
+2016-10-15T14:14:12-05:00 INFO (6): Params after login = array (
+  'controller' => 'index',
+  'action' => 'index',
+  'email_id' => 'saurabh.keshri123@gmail.com',
+  'error_message' => 'Your account has been deleted',
+  'module' => 'default',
+)
